@@ -1,0 +1,53 @@
+
+.imagem{
+  height: 15vh;
+}
+#trianguloEsquerda1 {
+  width: 0; 
+  height: 0;
+  float: right;
+  align-items: center;
+  border-left: 90vw solid transparent;
+  border-top: 4vh solid #008000;
+}
+#trianguloEsquerda2{
+  width: 0; 
+  height: 0; 
+  float: right;
+  border-left: 80vw solid transparent;
+  border-top: 3vh solid #008000;
+}
+#trianguloDireita1{
+  width: 0;
+  height: 0;
+  border-right: 80vw solid transparent;
+  border-bottom: 3vh solid green;
+}
+#trianguloDireita2{
+  width: 0;
+  height: 0;
+  border-right: 90vw solid transparent;
+  border-bottom: 4vh solid green;
+}
+.principal{
+  columns: 2;
+  column-gap: 6vw;
+  width: 90vw;
+  justify-content: center;
+  display: flex;
+  margin-left: 5vw;
+}
+#centralizacao{
+  display: flex;
+  justify-content: center; 
+  columns: 2;
+  column-gap: 25vw;
+}
+#centro{
+  text-align: center;
+  margin-top: 8vh;
+}
+#imagemDiferente{
+  height: 30vh;
+  width: 40vw;
+}
